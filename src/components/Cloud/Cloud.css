@@ -1,0 +1,99 @@
+.cloud {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-image: url(https://img.icons8.com/material-outlined/96/ffffff/cloud--v2.png);
+  background-size: cover;
+  top: 10%;
+  right: 1px;
+  opacity: 0.5;
+  z-index: 30;
+  transition: 30s;
+  animation: cloud 30s linear infinite;
+}
+
+
+@keyframes cloud {
+  0% { right: -100px; }
+  100% { right: 110%; }
+}
+
+.cloud2 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-image: url(https://img.icons8.com/material-outlined/96/ffffff/cloud--v2.png);
+  background-size: cover;
+  top: 20%;
+  right: 1px;
+  opacity: 0.7;
+  z-index: 30;
+  transition: 35s;
+  animation: cloud2 35s linear infinite;
+}
+
+
+@keyframes cloud2 {
+  0% { right: -100px; }
+  100% { right: 110%; }
+}
+
+.cloud3 {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  background-image: url(https://img.icons8.com/material-outlined/96/ffffff/cloud--v2.png);
+  background-size: cover;
+  top: 30%;
+  right: 1px;
+  opacity: 0.3;
+  z-index: 30;
+  transition: 40s;
+  animation: cloud3 40s linear infinite;
+}
+
+
+@keyframes cloud3 {
+  0% { right: -100px; }
+  100% { right: 110%; }
+}
+
+.cloud4 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background-image: url(https://img.icons8.com/material-outlined/96/ffffff/cloud--v2.png);
+  background-size: cover;
+  top: 80%;
+  right: 1px;
+  opacity: 0.9;
+  z-index: 30;
+  transition: 50s;
+  animation: cloud4 50s linear infinite;
+}
+
+
+@keyframes cloud4 {
+  0% { right: -100px; }
+  100% { right: 110%; }
+}
+
+.cloud5 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  background-image: url(https://img.icons8.com/material-outlined/96/ffffff/cloud--v2.png);
+  background-size: cover;
+  top: 5%;
+  right: 1px;
+  opacity: 0.7;
+  z-index: 20;
+  transition: 20s;
+  animation: cloud5 20s linear infinite;
+}
+
+
+@keyframes cloud5 {
+  0% { right: -100px; }
+  100% { right: 110%; }
+}

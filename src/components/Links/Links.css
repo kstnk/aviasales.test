@@ -1,0 +1,72 @@
+.icons-container {
+    align-items: center;
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: rgb(36, 36, 177);
+    transition: 0.3s;
+    background-size: cover;
+  }
+  
+  @keyframes icon1 {
+    10% { transform: scale(1, 1) }
+    15% { transform: scale(1.1, 1.1) }
+    20% { transform: scale(1, 1) }
+  }
+  
+  @keyframes icon2 {
+    20% { transform: scale(1, 1) }
+    25% { transform: scale(1.1, 1.1) }
+    30% { transform: scale(1, 1) }
+  }
+  
+  @keyframes icon3 {
+    30% { transform: scale(1, 1) }
+    35% { transform: scale(1.1, 1.1) }
+    40% { transform: scale(1, 1) }
+  }
+  
+  @keyframes icon4 {
+    40% { transform: scale(1, 1) }
+    45% { transform: scale(1.1, 1.1) }
+    50% { transform: scale(1, 1) }
+  }
+  
+  .icon:nth-child(1) {
+    background-color: #439ae0;
+    animation: icon1 6s linear infinite;
+    background-image: url(https://img.icons8.com/color/96/ffffff/facebook-new.png);
+  }
+  
+  .icon:nth-child(2) {
+    background-color: #3575cc;
+    animation: icon2 6s linear infinite;
+    background-image: url(https://img.icons8.com/color/96/ffffff/vk-com.png);
+  }
+  
+  .icon:nth-child(4) {
+    background-color: #f19f35;
+    animation: icon4 6s linear infinite;
+    background-image: url(https://img.icons8.com/color/96/ffffff/odnoklassniki.png);
+  }
+  
+  .icon:nth-child(3) {
+    background-color: #00acee;
+    animation: icon3 6s linear infinite;
+    background-image: url(https://img.icons8.com/color/96/ffffff/twitter-squared.png);
+  }
+  
+  .icon:hover {
+    transform: scale(1.2, 1.2);
+    background-image: url(https://img.icons8.com/material-sharp/96/ffffff/like.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 50% 50%;
+  }

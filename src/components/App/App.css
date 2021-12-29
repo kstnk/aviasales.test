@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'Shnobel';
+  src: url('../../fonts/Shnobel-Regular.eot');
+  src: url('../../fonts/Shnobel-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/Shnobel-Regular.woff') format('woff'),
+       url('../../fonts/Shnobel-Regular.ttf') format('truetype');
+           font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+.App {
+  text-align: center;
+  font-family: Shnobel,Helvetica Neue,Arial,sans-serif;
+  padding-top: 120px;
+  color: white;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: left;
+  width: 40px;
+}
+
+.App-header {
+  text-align: center;
+  min-height: 100px;
+  width: 450px;
+  margin: auto;
+  font-size: 55px;
+}
+
+.email {
+  background-color: white;
+  width: 350px;
+  height: 60px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Shnobel,Helvetica Neue,Arial,sans-serif;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  margin-bottom: 40px;
+}
+
+p {
+  font-size: 30px;
+  text-align: center;
+}
+
+.form-button {
+  color: #fff;
+  background: transparent;
+  width: 200px;
+  height: 70px;
+  border-color:white;
+  border-radius: 35px;
+  font-family: Shnobel,Helvetica Neue,Arial,sans-serif;
+  font-size: 40px;
+  box-shadow: none;
+}
+
+.opacity {
+  opacity: 0.5;
+}
+
+.disabled-btn {
+  background-color: white;
+  color: #cd718e;
+}
+
+.App-sector {
+  width: 400px;
+  margin: auto;
+  display: flex;
+}
+
+.container {
+  display: block;
+  padding-top: 20px;
+}
