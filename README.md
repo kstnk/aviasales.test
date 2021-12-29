@@ -6,3 +6,6 @@
 
 
 Задание выполнено на тех. стеке: Node.js, express, postgresql, react, redux.
+
+
+node 14.17.6
